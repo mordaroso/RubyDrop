@@ -1,5 +1,5 @@
 require 'socket'
-require_relative 'logmodule'
+require File.expand_path('logmodule', File.dirname(__FILE__))
 
 class TcpListen
 
