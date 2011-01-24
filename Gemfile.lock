@@ -1,0 +1,19 @@
+GIT
+  remote: https://github.com/mojombo/grit.git
+  revision: ed1b3ae514775cebe6cf924eaacce5b9a7331258
+  specs:
+    grit (2.4.1)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.2)
+    mime-types (1.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  grit!
