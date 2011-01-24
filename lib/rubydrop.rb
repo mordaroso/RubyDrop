@@ -1,7 +1,7 @@
 require "fileutils"
 require "yaml"
-require_relative "fswatcher"
-require_relative "tcp_listen"
+require File.expand_path('fswatcher', File.dirname(__FILE__))
+require File.expand_path('tcp_listen', File.dirname(__FILE__))
 
 class RubyDrop
   
